@@ -126,6 +126,9 @@ All credentials are expected to be configured through:
 * environment variables
 * secret managers
 
+- Do not commit secrets. Use `.env` and your secret manager.
+- Rotate any credential immediately if it is exposed.
+
 ---
 
 ## Why This Project Exists
