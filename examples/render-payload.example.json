@@ -1,0 +1,8 @@
+```json
+{
+  "voiceover_url": "https://example.com/audio.mp3",
+  "captions": "1\n00:00:00,000 --> 00:00:02,000\nExample captions",
+  "title_text": "AI Tool That Saves 10 Hours A Week",
+  "background_style": "minimal-tech",
+  "logo_url": "https://example.com/logo.png"
+}
