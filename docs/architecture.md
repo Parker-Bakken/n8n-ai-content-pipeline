@@ -52,6 +52,29 @@ flowchart TD
   - error stored in sheet
   - optional notification triggered
 
+## Workflow status lifecycle
+
+```mermaid
+flowchart LR
+  A[queued] --> B[generating]
+  B --> C[rendering]
+  C --> D[complete]
+
+  B --> E[failed]
+  C --> E
+  C --> F[rendering_stuck]
+  F --> C
+```
+
+### Status meanings
+
+- `queued` = item exists in backlog but has not started
+- `generating` = script / title / CTA / voiceover are being created
+- `rendering` = render job has been submitted and is waiting for completion
+- `complete` = final video URL was returned successfully
+- `failed` = workflow hit an unrecoverable error
+- `rendering_stuck` = render job exists, but polling timed out or needs follow-up retry
+
 - **Render API timeout**
   - status = `rendering_stuck`
   - workflow retries polling later
