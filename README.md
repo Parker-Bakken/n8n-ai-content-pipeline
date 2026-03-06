@@ -88,6 +88,15 @@ API     API       Generator
 * render API integration
 * metadata packaging
 
+## Production-minded features
+
+- Run-level tracking with `run_id`
+- Idempotency protection to avoid duplicate renders
+- Retry and backoff for external API failures
+- Structured status lifecycle (`queued` → `generating` → `rendering` → `complete`)
+- Error logging to Google Sheets
+- Optional notification hooks for Discord / Slack / Email
+
 ---
 
 ## Roadmap
