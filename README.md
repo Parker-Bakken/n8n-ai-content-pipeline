@@ -10,6 +10,9 @@ This project is being developed as a **real-world automation system** designed t
 
 📐 [Architecture](docs/architecture.md)  
 📄 Workflow examples coming soon
+![Automation](https://img.shields.io/badge/focus-automation-blue)
+![APIs](https://img.shields.io/badge/focus-api%20integration-green)
+![Workflow](https://img.shields.io/badge/tool-n8n-orange)
 
 ---
 
