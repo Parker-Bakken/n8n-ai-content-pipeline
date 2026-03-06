@@ -1,5 +1,9 @@
 # n8n AI Content Pipeline — Ongoing Project
 
+![Automation](https://img.shields.io/badge/focus-automation-blue)
+![APIs](https://img.shields.io/badge/focus-api%20integration-green)
+![Workflow](https://img.shields.io/badge/tool-n8n-orange)
+
 An automated AI content production pipeline built using **n8n orchestration** and multiple APIs to generate, render, and prepare short-form video content.
 
 This project is being developed as a **real-world automation system** designed to demonstrate API integration, workflow orchestration, and scalable content pipelines.
@@ -10,9 +14,6 @@ This project is being developed as a **real-world automation system** designed t
 
 📐 [Architecture](docs/architecture.md)  
 📄 Workflow examples coming soon
-![Automation](https://img.shields.io/badge/focus-automation-blue)
-![APIs](https://img.shields.io/badge/focus-api%20integration-green)
-![Workflow](https://img.shields.io/badge/tool-n8n-orange)
 
 ---
 
