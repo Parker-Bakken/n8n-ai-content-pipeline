@@ -52,6 +52,13 @@ flowchart TD
   - error stored in sheet
   - optional notification triggered
 
+- **Render API timeout**
+  - status = `rendering_stuck`
+  - workflow retries polling later
+
+- **Webhook replay / duplicate trigger**
+  - idempotency key prevents duplicate video renders
+
 ## Workflow status lifecycle
 
 ```mermaid
@@ -74,10 +81,3 @@ flowchart LR
 - `complete` = final video URL was returned successfully
 - `failed` = workflow hit an unrecoverable error
 - `rendering_stuck` = render job exists, but polling timed out or needs follow-up retry
-
-- **Render API timeout**
-  - status = `rendering_stuck`
-  - workflow retries polling later
-
-- **Webhook replay / duplicate trigger**
-  - idempotency key prevents duplicate video renders
