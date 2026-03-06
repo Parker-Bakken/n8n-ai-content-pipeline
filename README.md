@@ -6,7 +6,10 @@ This project is being developed as a **real-world automation system** designed t
 
 **Status:** 🚧 Ongoing / Actively Improving
 
-📐 Architecture: docs/architecture.md
+## Documentation
+
+📐 [Architecture](docs/architecture.md)  
+📄 Workflow examples coming soon
 
 ---
 
